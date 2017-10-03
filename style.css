@@ -30,7 +30,6 @@ body {
 .botonera ul{
     display: flex;
     flex-wrap: wrap;
-
 }
 .botonera li{
     flex-grow:1;
