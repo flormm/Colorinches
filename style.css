@@ -10,6 +10,9 @@ body {
 .logo{
     text-align: center;
 }
+.logo img{
+    max-width: 100%;
+}
 .contenedor{
     max-width: 1280px;
     margin:auto;
