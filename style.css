@@ -5,7 +5,7 @@
 }
 body {
     background-color:#ff9ec7;
-    background-image: url("imagenes/fondo.jpg");
+    
 }
 .logo{
     text-align: center;
@@ -19,7 +19,7 @@ body {
     position: relative;
 }
 .botonera{
-    list-style-type: none;
+    
     background-color: #ff9ec7;
     padding:5px;
     border:1px solid #000;
@@ -31,6 +31,7 @@ body {
     z-index: 1;
 }
 .botonera ul{
+    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 }
@@ -62,9 +63,10 @@ body {
     border: 1px solid #000000;
     border-radius:10px;
     height: 360px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .menubordados{
-
     float: left;
     padding-left: 20px;
     color: #fff;
@@ -87,12 +89,12 @@ body {
     font-size: 25px;
     padding-bottom: 8px;
 }
-.imgbordados{
-    float: right;
+.bordados img{
+    flex-grow:1;
+    flex-basis: 150px;
+    margin: 20px;
 }
-.imgtejidos{
-    float: right;
-}
+
 .pulpo{
     position: relative;
     top:43px;
@@ -103,12 +105,15 @@ body {
     border: 1px solid #000000;
     border-radius:10px;
     height: 360px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.imgtejidos{
-    float: left;
+.tejidos img{
+    flex-grow:1;
+    flex-basis: 150px;
+    margin: 20px;
 }
 .menutejidos{
-
     float: right;
     padding-left: 20px;
     color: #fff;
@@ -140,10 +145,16 @@ body {
     border: 1px solid #000000;
     border-radius:10px;
     height: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fibro img{
+    flex-grow:1;
+    flex-basis: 150px;
+    margin: 20px;
 }
 .menufibro{
-
-    float: left;
+    float: right;
     padding-left: 20px;
     color: #fff;
     list-style-type:none;
@@ -165,9 +176,6 @@ body {
     font-size: 25px;
     padding-bottom: 8px;
 }
-.imgfibro{
-    float: right;
-}
 .pie{
     margin-top: 140px;
     background-color: #827f81;
@@ -175,52 +183,86 @@ body {
 	margin-left:auto;
 	margin-right: auto;
 }
-.fotocontacto{
-	list-style-type:none;
-  }
-.fotocontacto li{
-	float: left;
-	padding: 56px;
+.contacto{
+    margin-bottom: 80px;
+    overflow: auto;
+    height: 360px;
 }
-
-.spwhatsapp{
-	display:block;
-	background-image: url(imagenes/redes.png);
-	width: 250px;
-	height: 240px;
-	background-position:0px 240px;
-}
-.spfacebook{
-	display:block;
-	background-image: url(imagenes/redes.png);
-	width: 250px;
-	height: 240px;
-	background-position:-250px 240px;
-}
-.sptwiter{
-	display:block;
-	background-image: url(imagenes/redes.png);
-	width: 250px;
-	height: 240px;
-	background-position:-500px 240px;
-}
-.spmail{
-	display:block;
-	background-image: url(imagenes/redes.png);
-	width: 250px;
-	height: 240px;
-}
-
-.textocontacto{
+.contacto li{
     list-style-type:none;
+	float: left;
+    padding: 56px
+}
+.contacto h2{
+    font-size: 30px;
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    padding-top: 250px;
+    color:#fff;
+}
+.whatsapp{
+	display:block;
+	background-image: url(imagenes/redes.png);
+	width: 250px;
+	height: 240px;
+    background-position:0px 240px;
+    text-decoration: none;
+}
+.facebook{
+	display:block;
+	background-image: url(imagenes/redes.png);
+	width: 250px;
+	height: 240px;
+    background-position:-250px 240px;
+    text-decoration: none;
+}
+.twiter{
+	display:block;
+	background-image: url(imagenes/redes.png);
+	width: 250px;
+	height: 240px;
+    background-position:-500px 240px;
+    text-decoration: none;
+}
+.email{
+	display:block;
+	background-image: url(imagenes/redes.png);
+	width: 250px;
+    height: 240px;
+    background-position:-750px 240px;
+    text-decoration: none;
+}
+.formulario{
+    overflow:auto;
+}
+.formulario input{
+    text-align: left;
+    font-size: 20px;
     font-family: 'Pacifico', sans-serif;
 }
-.textocontacto a{
-    text-decoration:none;
-	display: block;
-	padding: 10px 120px;
-	color: #FFFFFF;
-	float:left;
-   font-weight:900;
-   font-size: 35px;
+.nombre{
+float: left;
+padding: 15px 80px;
+margin-left: 245px;
+}
+.mail{
+float: right;
+margin-right: 296px;
+padding: 15px 130px;
+}
+.coment{
+float: left;
+margin-top:50px;
+margin-left: 245px;
+text-align: left;
+font-size: 20px;
+font-family: 'Pacifico', sans-serif;
+}
+.enviar{
+float: right;
+margin-top: 249px;
+padding: 10px 50px;
+margin-right: 94px;
+
+font-size: 35px;
 }
