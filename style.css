@@ -51,23 +51,19 @@ body {
 .botonera a:hover{
     color:#fff;
     font-size:30px;
+    text-shadow: 20px 10px 5px #4D4C4C;   
 }
+
  /*============ Fin Botonera ===========*/
-.tigre{
-    position: relative;
-    top:30px
-}
 .slide{
     background-color: #074cb4;
     border: 1px solid #000000;
     border-radius:10px;
-    height: 360px;
     display: flex;
     flex-wrap: wrap;
     box-shadow: inset 0px 0px 30px 20px #143463;
 }
 .menuslide{
-    float: left;
     padding-left: 20px;
     color: #fff;
     list-style-type:none;
@@ -91,10 +87,15 @@ body {
 }
 .slide img{
     flex-grow:1;
-    flex-basis: 150px;
+    flex-basis: 300px;
+    max-width: 100%;
     margin: 20px;
 }
-
+/* ======== Animalitos ====== */
+.tigre{
+    position: relative;
+    top:30px;
+}
 .pulpo{
     position: relative;
     top:43px;
@@ -104,22 +105,22 @@ body {
     position: relative;
     top:43px;
 }
+/* ============ Inicio pie ============ */
 .pie{
     margin-top: 140px;
     background-color: #827f81;
-
-	margin-left:auto;
-	margin-right: auto;
+    position: relative;
 }
 .contacto{
     margin-bottom: 80px;
-    overflow: auto;
     height: 360px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .contacto li{
     list-style-type:none;
-	float: left;
-    padding: 56px
+    padding: 56px;
+    flex-grow:1;
 }
 .contacto h2{
     font-size: 30px;
@@ -160,6 +161,7 @@ body {
     background-position:-750px 240px;
     text-decoration: none;
 }
+/*=========== Fin redes ==============*/
 .formulario{
     display: flex;
     flex-wrap: wrap;
@@ -190,6 +192,7 @@ font-family: 'Pacifico', sans-serif;
 margin-top: 251px;
 padding: 10px 50px;
 font-size: 35px;
+font-family: 'Pacifico', sans-serif;
 }
 .form1{
     display: flex;
@@ -199,4 +202,13 @@ font-size: 35px;
     padding-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
+}
+/* ======= Mobil ======== */
+@media (max-width: 768px){
+    .botonera{
+        position:relative;
+    }
+    .pulpo{
+        left: 0px;
+    }
 }
