@@ -62,7 +62,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     box-shadow: inset 0px 0px 30px 20px #143463;
-    max-width: 100%
+    max-width: 100%;
+    justify-content: space-between;
 }
 .menuslide{
     padding-left: 20px;
@@ -71,6 +72,7 @@ body {
     text-align: center;
     font-family: 'Pacifico', sans-serif;
     width: 360px;
+
 }
 .menuslide h1{
     padding: 10px;
@@ -90,6 +92,7 @@ body {
     flex-grow:1;
     flex-basis: 300px;
     margin: 20px;
+    max-width: 32%;
 }
 /* ======== Animalitos ====== */
 .tigre{
