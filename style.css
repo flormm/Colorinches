@@ -5,7 +5,6 @@
 }
 body {
     background-color:#ff9ec7;
-
 }
 .logo{
     text-align: center;
@@ -180,6 +179,7 @@ font-size: 20px;
     padding: auto;
     font-size: 20px;
     margin-bottom: 5px;
+    width: 100%;
 }
 .nombre{
     margin-bottom: 10px;
@@ -204,8 +204,12 @@ font-size: 20px;
     .botonera{
         position:relative;
     }
+    .tigre{
+        width: 100%;
+    }
     .pulpo{
         left: 0px;
+        width: 100%;
     }
     .formulario{
         margin: 0px 2%;
