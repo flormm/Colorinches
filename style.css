@@ -92,7 +92,6 @@ body {
     flex-grow:1;
     flex-basis: 300px;
     margin: 20px;
-    max-width: 32%;
 }
 /* ======== Animalitos ====== */
 .tigre{
@@ -192,6 +191,12 @@ font-size: 20px;
 }
 /* ======= Mobil ======== */
 @media (max-width: 768px){
+    .slide{
+        display: block;
+    }
+    .slide img{
+        width: 90%;
+    }
     .contacto{
         display: none;
     }
