@@ -6,16 +6,14 @@
 body {
     background-color:#ff9ec7;
 }
+header{
+    position: relative;
+}
 .logo{
     text-align: center;
 }
 .logo img{
     max-width: 100%;
-}
-.contenedor{
-    max-width: 1280px;
-    margin:auto;
-    position: relative;
 }
 .botonera{  
     background-color: #ff9ec7;
@@ -52,8 +50,12 @@ body {
     font-size:30px;
     text-shadow: 20px 10px 5px #4D4C4C;   
 }
-
  /*============ Fin Botonera ===========*/
+ .contenedor{
+    max-width: 1280px;
+    margin:auto;
+    position: relative;
+}
 section{
     background-color: #074cb4;
     border: 1px solid #000000;
@@ -177,8 +179,25 @@ border-radius: 10px;
     box-shadow: 10px 10px 5px rgb(194, 190, 190);
     padding: 8px;
 }
+
+/* ========= fotos ============ */
+.fotos{
+    list-style-type: none;
+    display: flex;
+    padding-top: 40px;
+}
+.fotos img{
+    max-width: 100%;
+    padding: 10px;
+}
+.fotos img:hover{
+    opacity: 0.5;
+}
 /* ======= Mobil ======== */
 @media (max-width: 768px){
+    .fotos{
+    display: inline;
+    }
     .slide img{
         width: 90%;
     }
