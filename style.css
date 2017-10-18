@@ -118,54 +118,30 @@ body {
 }
 .contacto{
     margin-bottom: 80px;
-    height: 360px;
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 .contacto li{
     list-style-type:none;
     padding: 56px;
     flex-grow:1;
 }
+.contacto a{
+    text-decoration: none;
+}
 .contacto h2{
+    padding-top: 15px;
     font-size: 30px;
     font-family: 'Pacifico', sans-serif;
     text-align: center;
-    padding-top: 250px;
     color:#fff;
 }
-.whatsapp{
-	display:block;
-	background-image: url(imagenes/redes.png);
-	width: 250px;
-	height: 240px;
-    background-position:0px 240px;
-    text-decoration: none;
+.contacto img{
+    display: block; 
+    margin: auto;
 }
-.facebook{
-	display:block;
-	background-image: url(imagenes/redes.png);
-	width: 250px;
-	height: 240px;
-    background-position:-250px 240px;
-    text-decoration: none;
-}
-.twiter{
-	display:block;
-	background-image: url(imagenes/redes.png);
-	width: 250px;
-	height: 240px;
-    background-position:-500px 240px;
-    text-decoration: none;
-}
-.email{
-	display:block;
-	background-image: url(imagenes/redes.png);
-	width: 250px;
-    height: 240px;
-    background-position:-750px 240px;
-    text-decoration: none;
-}
+
 /*=========== Fin redes ==============*/
 .formulario{
 padding-bottom: 60px;
@@ -179,11 +155,9 @@ font-size: 20px;
 }
 .formulario textarea{
     font-family: 'Pacifico', sans-serif; 
-    padding: auto;
     font-size: 20px;
     margin-bottom: 5px;
-    width: 100%;
-    
+    max-width: 100%;
 }
 .nombre{
     margin-bottom: 10px;
@@ -198,9 +172,6 @@ font-size: 20px;
 @media (max-width: 768px){
     .slide img{
         width: 90%;
-    }
-    .contacto{
-        display: none;
     }
     .botonera{
         position:relative;
