@@ -8,21 +8,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	</head>
 	<body>
+	<header>
 		<div class="logo">
 				<img src="imagenes/logo.jpg" alt="Logo">
 			</div>
-			<div class="botonera">
+			<nav class="botonera">
 				<ul>
 				<li><a href="index.html"> Inicio </a></li>
 				<li><a href="bordados.html"> Bordados </a></li>
 				<li><a href="tejidos.html"> Tejidos </a></li>
 				<li><a href="fibro.html"> Fibrofacil </a></li>
-				<li><a href="#contactoid"> Contacto </a></li>
+				<li><a href="#contactoid" class="anchorLink"> Contacto </a></li>
 				</ul>
-			</div><!-- Cierro botonera-->
+			</nav><!-- Cierro botonera-->
+			</header>
 			<div class="contenedor">
 			<img class="tigre" src="imagenes/tigre.png" alt="tigre">
-			<div class="slide">
+			<section>
 				<div class="menuslide">
 					<h1><a href="bordados.html"> Bordados</a></h1>
 					<ul> 
@@ -34,9 +36,9 @@
 				</div><!-- Cierro menu bordados-->
 					<img src="imagenes/fotos/bordados1.jpg" alt="foto de bordado 1">
 					<img src="imagenes/fotos/bordados2.jpg" alt="foto de bordado 2">
-			</div><!-- Cierro bordados-->
+			</section><!-- Cierro bordados-->
 			<img class="pulpo" src="imagenes/pulpo.png" alt="pulpo">
-			<div class="slide">
+			<section>
 					<img src="imagenes/fotos/tejido1.jpeg" alt="foto de tejidos 1">
 					<img src="imagenes/fotos/tejido2.jpeg" alt="foto de tejidos 2">
 				<div class="menuslide">
@@ -48,9 +50,9 @@
 							<li>Pashminas </li>
 						</ul>				
 					</div><!-- Cierro menu tejidos-->
-			</div><!-- Cierro tejidos-->
+			</section><!-- Cierro tejidos-->
 			<img class="mono" src="imagenes/mono.png" alt="mono">
-			<div class="slide">
+			<section>
 				<div class="menuslide">
 					<h1><a href="fibro.html">Fibrofacil</a></h1>
 					<ul> 
@@ -58,15 +60,16 @@
 						<li>Chales </li>
 						<li>Bufandas </li>
 						<li> Pashminas </li>
-					</ul>				
-				</div> <!-- Cierro menu fibro-->
+					</ul>	
+				</div>			
+				 <!-- Cierro menu fibro-->
 					<img src="imagenes/fotos/fibro1.jpg" alt="foto de fibrofacil 1">
 					<img src="imagenes/fotos/fibro2.jpg" alt="foto de fibrofacil 2">
-			</div> <!-- Cierro fibro-->
+				</section> <!-- Cierro fibro-->
 			<div class="blanco">
 			</div>
 		</div><!-- Cierro contenedor-->
-			<div class="pie">
+		<footer>
 				<ul class="contacto" id="contactoid">
 					<li><a href="tel:1155754864" class="whatsapp">
 						<img src="imagenes/redes/whatsapp.png" alt="Whatsapp">
@@ -91,5 +94,8 @@
 						<input class="enviar" value="Enviar" type="submit">
 						</div>
 					</form><!-- Cierro formulario-->
-				</div> <!-- cierro pie-->
+				</footer><!-- cierro pie-->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+				<script scr="jquery.anchor.js">
+				</script>
 	</body></html>

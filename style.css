@@ -54,7 +54,7 @@ body {
 }
 
  /*============ Fin Botonera ===========*/
-.slide{
+section{
     background-color: #074cb4;
     border: 1px solid #000000;
     border-radius:10px;
@@ -87,7 +87,7 @@ body {
     padding-bottom: 8px;
     list-style-type: none;
 }
-.slide img{
+section img{
     margin: 20px;
     max-width: 100%;
 }
@@ -110,7 +110,7 @@ body {
     max-width: 100%;
 }
 /* ============ Inicio pie ============ */
-.pie{
+footer{
     margin-top: 140px;
     background-color: #827f81;
     position: relative;
