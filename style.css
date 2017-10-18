@@ -58,10 +58,10 @@ body {
     background-color: #074cb4;
     border: 1px solid #000000;
     border-radius:10px;
-    display: flex;
-    flex-wrap: wrap;
     box-shadow: inset 0px 0px 30px 20px #143463;
     max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .menuslide{
@@ -71,7 +71,6 @@ body {
     text-align: center;
     font-family: 'Pacifico', sans-serif;
     width: 360px;
-
 }
 .menuslide h1{
     padding: 10px;
@@ -82,14 +81,14 @@ body {
     text-decoration: none;
     color: #fff;
     display: block;
+
 }
 .menuslide li{
     font-size: 25px;
     padding-bottom: 8px;
+    list-style-type: none;
 }
 .slide img{
-    flex-grow:1;
-    flex-basis: 300px;
     margin: 20px;
     max-width: 30%;
 }
@@ -97,15 +96,19 @@ body {
 .tigre{
     position: relative;
     top:30px;
+    max-width: 100%;
 }
 .pulpo{
+    max-width: 100%;
     position: relative;
     top:43px;
     left: 890px;
+
 }
 .mono{
     position: relative;
     top:43px;
+    max-width: 100%;
 }
 /* ============ Inicio pie ============ */
 .pie{
@@ -180,6 +183,7 @@ font-size: 20px;
     font-size: 20px;
     margin-bottom: 5px;
     width: 100%;
+    
 }
 .nombre{
     margin-bottom: 10px;
@@ -192,9 +196,6 @@ font-size: 20px;
 }
 /* ======= Mobil ======== */
 @media (max-width: 768px){
-    .slide{
-        display: block;
-    }
     .slide img{
         width: 90%;
     }
@@ -204,12 +205,8 @@ font-size: 20px;
     .botonera{
         position:relative;
     }
-    .tigre{
-        width: 100%;
-    }
     .pulpo{
         left: 0px;
-        width: 100%;
     }
     .formulario{
         margin: 0px 2%;
