@@ -198,13 +198,15 @@ border-radius: 10px;
 }
 .fotos img:hover{
     transform: scale(2) rotate(360deg);  
-
 }
 /* ======= Mobil ======== */
 @media (max-width: 768px){
     .fotos{
     display: inline;
     text-align: center;
+    }
+    .fotos img:hover{
+        transform: scale(1.5) rotate(360deg);  
     }
     .slide img{
         width: 90%;
