@@ -204,6 +204,7 @@ border-radius: 10px;
 @media (max-width: 768px){
     .fotos{
     display: inline;
+    position: relative;
     }
     .slide img{
         width: 90%;
