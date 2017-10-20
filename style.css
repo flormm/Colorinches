@@ -176,7 +176,7 @@ border-radius: 10px;
     transition: all 0.5s;
 }
 .enviar:hover{
-    box-shadow: 10px 10px 5px rgb(194, 190, 190);
+    box-shadow: 10px 10px 5px #c2bebe;
     padding: 8px;
 }
 
@@ -184,14 +184,21 @@ border-radius: 10px;
 .fotos{
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     padding-top: 40px;
+    justify-content: space-between;
 }
 .fotos img{
     max-width: 100%;
-    padding: 10px;
+    transition: 0.5s;
+    z-index: 2;
+    max-width: 40vh;
+    border:5px solid #858181;
+    border-radius: 10px; 
 }
 .fotos img:hover{
-    opacity: 0.5;
+    transform: scale(2) rotate(360deg);  
+
 }
 /* ======= Mobil ======== */
 @media (max-width: 768px){
