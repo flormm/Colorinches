@@ -7,7 +7,7 @@ body {
     background-color:#ff9ec7;
 }
 header{
-    position: relative;
+    display: inline;
 }
 .logo{
     text-align: center;
