@@ -182,16 +182,17 @@ border-radius: 10px;
 
 /* ========= fotos ============ */
 .fotos{
+    position: relative;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     padding-top: 40px;
+    z-index: 2;
     justify-content: space-between;
 }
 .fotos img{
     max-width: 100%;
     transition: 0.5s;
-    z-index: 2;
     max-width: 40vh;
     border:5px solid #858181;
     border-radius: 10px; 
@@ -204,6 +205,8 @@ border-radius: 10px;
     .fotos{
     display: inline;
     text-align: center;
+    position: relative;
+    z-index: 2;
     }
     .fotos img:hover{
         transform: scale(1.5) rotate(360deg);  
